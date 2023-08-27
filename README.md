@@ -6,7 +6,8 @@
 + fourth outputs the multiplication table.
 # This is a project map
 
-![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/dc46a6fc-ac83-4d66-b398-8c14f16c665b)
+![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/1b8ca6ec-d9de-4647-b4ff-e5d13cf5e738)
+
 
 
 # Frist feature 
