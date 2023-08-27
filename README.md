@@ -1,9 +1,10 @@
 # Calculatorr
 # This project has four features
-firs Adds, subtracts, multiplies, divides and takes roots of two numbers
-secound you will be given three examples to find the correct answer
-third You have to guess who won the world championships in football
-fourth outputs the multiplication table.
++ firs Adds, subtracts, multiplies, divides and takes roots of two numbers
++ secound you will be given three examples to find the correct answer
++ third You have to guess who won the world championships in football
++ fourth outputs the multiplication table.
+# This is a project map
 
 ![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/dc46a6fc-ac83-4d66-b398-8c14f16c665b)
 
