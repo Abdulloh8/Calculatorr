@@ -21,7 +21,7 @@
 
 ![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/114e256f-e6d7-4e75-80a6-d7276d6fd1bc)
 + the result
-+ 
+ 
 ![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/09fadb08-5556-4b20-971d-3803398859b9)
 
 
