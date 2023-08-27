@@ -8,7 +8,7 @@ fourth outputs the multiplication table.
 # Frist feature 
 + value1 + value2 = value3 
 + value1 - value2 = value3 
-value1 * value2 = value3 
++ value1 * value2 = value3 
 value1 / value2 = value3 
 value1  squer = value2 
 ![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/114e256f-e6d7-4e75-80a6-d7276d6fd1bc)
