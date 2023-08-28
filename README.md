@@ -37,6 +37,22 @@
 
 ![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/83be76fd-78b9-49b8-9c11-6552d512f3cf)
 
+# third feature 
++ I used massiv and class
++ one entity has four question and one answer
+  
+![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/a8990edd-7468-4d2c-9fcc-91ec74155b06)
++ this entity
+
+ ![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/e3da9974-5958-4d26-b0c5-d31128b08662)
+
+ + this result
+
+![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/ae927a0a-356d-465b-a0e5-e0128112c8eb)
+
+ 
+
+
 
 
 
