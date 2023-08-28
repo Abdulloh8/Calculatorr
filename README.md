@@ -33,6 +33,10 @@
 + this entity
 
 ![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/a94a8636-098b-46cf-8443-6ee8efefd018)
++ this result
+
+![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/83be76fd-78b9-49b8-9c11-6552d512f3cf)
+
 
 
 
