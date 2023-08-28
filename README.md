@@ -54,6 +54,17 @@
 
 ![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/c9c874d0-20d7-4345-8fe1-ec53dd125efb)
 
+# fourth feature 
++ this function simply outputs the multiplication table
+
+![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/e961e926-407f-42a1-a973-8c864370e641)
+
++ this result
+
+![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/91d7bfd1-2828-498f-904a-44d11a616507)
+
+
+
 
  
 
