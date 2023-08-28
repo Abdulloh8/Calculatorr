@@ -50,6 +50,11 @@
 
 ![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/ae927a0a-356d-465b-a0e5-e0128112c8eb)
 
++ this is the process of checking questions
+
+![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/c9c874d0-20d7-4345-8fe1-ec53dd125efb)
+
+
  
 
 
