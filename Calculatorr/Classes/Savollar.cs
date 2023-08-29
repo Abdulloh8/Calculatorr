@@ -9,46 +9,81 @@ namespace Calculatorr.Classes
 {
     public class Savollar
     {
-        public Savol[] savollar = new Savol[3];
+        public Savol[] savollar = new Savol[10];
+        private int count = 3;
+        string selection = "";
+        public Savollar() 
+        {
+            this.savollar[0] = new Savol();
+            this.savollar[1] = new Savol();
+            this.savollar[2] = new Savol();
+
+            this.savollar[0].savol = "savol 2010 yilgi jahon chempionatida qaysi davlat 1 urindi olgan: ";
+            this.savollar[0].variant1 = "Brazilya";
+            this.savollar[0].variant2 = "Anglya";
+            this.savollar[0].variant3 = "Ispanya";
+            this.savollar[0].variant4 = "Fransiya";
+            this.savollar[0].tugrijavob = "3";
+
+            this.savollar[1].savol = "savol 2018 yilgi jahon chempionatida qaysi davlat 1 urindi olgan: ";
+            this.savollar[1].variant1 = "Brazilya";
+            this.savollar[1].variant2 = "Anglya";
+            this.savollar[1].variant3 = "Ispanya";
+            this.savollar[1].variant4 = "Fransiya";
+            this.savollar[1].tugrijavob = "4";
+
+            this.savollar[2].savol = "savol 2006 yilgi jahon chempionatida qaysi davlat 1 urindi olgan: ";
+            this.savollar[2].variant1 = "Germanya";
+            this.savollar[2].variant2 = "Anglya";
+            this.savollar[2].variant3 = "Italiya";
+            this.savollar[2].variant4 = "Argentina";
+            this.savollar[2].tugrijavob = "3";
+        }
+
+        public void Show()
+        {
+            Console.WriteLine("1 : Savollardi topish");
+            Console.WriteLine("2 : Savol qushish");
+            selection = Console.ReadLine();
+            switch (selection)
+            {
+                case "1": Question(); break;
+                case "2": Add(); break;
+                default: Console.WriteLine("non-existent choice"); break;
+
+            }
+
+        }
+
 
         public void Add()
         {
-            savollar[0] = new Savol();
-            savollar[1] = new Savol();
-            savollar[2] = new Savol();
-
-            savollar[0].savol = "savol 2010 yilgi jahon chempionatida qaysi davlat 1 urindi olgan: ";
-            savollar[0].variant1 = "1 : Brazilya";
-            savollar[0].variant2 = "2 : Anglya";
-            savollar[0].variant3 = "3 : Ispanya";
-            savollar[0].variant4 = "4 : Fransiya";
-            savollar[0].tugrijavob = "3";
-
-            savollar[1].savol = "savol 2018 yilgi jahon chempionatida qaysi davlat 1 urindi olgan: ";
-            savollar[1].variant1 = "1 : Brazilya";
-            savollar[1].variant2 = "2 : Anglya";
-            savollar[1].variant3 = "3 : Ispanya";
-            savollar[1].variant4 = "4 : Fransiya";
-            savollar[1].tugrijavob = "4";
-
-            savollar[2].savol = "savol 2006 yilgi jahon chempionatida qaysi davlat 1 urindi olgan: ";
-            savollar[2].variant1 = "1 : Germanya";
-            savollar[2].variant2 = "2 : Anglya";
-            savollar[2].variant3 = "3 : Italiya";
-            savollar[2].variant4 = "4 : Argentina";
-            savollar[2].tugrijavob = "3";
+            Console.WriteLine("Savolni kiriting");
+            savollar[count] = new Savol();
+            savollar[count].savol = Console.ReadLine();
+            Console.WriteLine("1 variantni kiriting");
+            savollar[count].variant1 = Console.ReadLine();
+            Console.WriteLine("2 variantni kiriting");
+            savollar[count].variant2 = Console.ReadLine();
+            Console.WriteLine("3 variantni kiriting");
+            savollar[count].variant3 = Console.ReadLine();
+            Console.WriteLine("4 variantni kiriting");
+            savollar[count].variant4 = Console.ReadLine();
+            Console.WriteLine("To'g'ri javobni raqamoni kiriting");
+            savollar[count].tugrijavob = Console.ReadLine();
+            Console.WriteLine("Savolingiz qushildi");
+            count++;
         }
         public void Question()
         {
-            Add();
-            for (int i = 0; i < savollar.Length; i++)
+            for (int i = 0; i < count; i++)
             {
                 Reporter.ReportProgress(savollar[i].savol);
                 Console.WriteLine();
-                Reporter.ReportProgress(savollar[i].variant1);
-                Reporter.ReportProgress(savollar[i].variant2);
-                Reporter.ReportProgress(savollar[i].variant3);
-                Reporter.ReportProgress(savollar[i].variant4);
+                Reporter.ReportProgress($"1 : {savollar[i].variant1}");
+                Reporter.ReportProgress($"2 : {savollar[i].variant2}");
+                Reporter.ReportProgress($"3 : {savollar[i].variant3}");
+                Reporter.ReportProgress($"4 : {savollar[i].variant4}");
                 string answer = Console.ReadLine();
                 if (answer == savollar[i].tugrijavob)
                 {
