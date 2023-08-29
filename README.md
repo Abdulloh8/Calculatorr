@@ -63,6 +63,18 @@
 
 ![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/91d7bfd1-2828-498f-904a-44d11a616507)
 
+# We have included the possibility to add examples and questions from the new version of our program
+
++ The process of adding an example
+
+![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/ac41a7ff-fb6e-4cd3-bb73-625d2dc0f00c)
+
++ The process of adding a question
+
+![image](https://github.com/Abdulloh8/Calculatorr/assets/124783813/fbe52bf5-474b-438a-9f20-d35f6b7ac9d5)
+
+
+
 
 
 
