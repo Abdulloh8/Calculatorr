@@ -8,6 +8,8 @@ namespace Calculatorr
     {
         static void Main(string[] args)
         {
+            var misol = new Misollar();
+            var savol = new Savollar();
             string yesorNo = "";
             do
             {
@@ -22,12 +24,10 @@ namespace Calculatorr
                         Reporter.ShowGratitude();
                         break;
                     case 2:
-                        var misol = new Misollar();
-                        misol.Question();
+                        misol.Show();
                         break;
                     case 3:
-                        var savol = new Savollar();
-                        savol.Question();
+                        savol.Show();
                         break;
                     case 4:
                         Reporter.ShowMultiplicationTable();
